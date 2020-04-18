@@ -180,19 +180,13 @@ p {
   font-size: 50px;
   padding: 30px;
 }
-.nav-flex {
+.nav-flex .nav-flex {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   width: 40%;
   padding: 20px;
   margin-top: 10px;
-}
-@media (max-width: 500px) {
-  .nav-flex {
-    width: 100%;
-    font-size: 25px;
-  }
 }
 .nav-flex a {
   font-size: 20px;
