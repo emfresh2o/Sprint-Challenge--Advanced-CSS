@@ -57,9 +57,7 @@
     justify-content: center;
     @media @phone{
       flex-direction: column-reverse;
-      margin: 0 auto;
-      padding: 20px 15px;
-    
+      width: 100%;
     }
     .walk-text {
       width: 50%;
@@ -77,6 +75,9 @@
 
       .btn {
         .btn-mixin(black, white)
+        @media @phone {
+          width: 100%;
+        }
       }
     }
   
